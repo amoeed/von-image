@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '8f40400b-02d1-49dc-9ec4-65060e02f9e2'
   imageRepository: 'dilabtest'
   containerRegistry: 'telnetinfo.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/node-1.9/Dockerfile.ubuntu'
+  dockerfilePath: '$(Build.SourcesDirectory)/1.10/Dockerfile.ubuntu'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
